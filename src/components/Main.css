@@ -1,0 +1,306 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.mainDiv {
+  width: 100%;
+}
+.div1 {
+  display: flex;
+  background-image: url(./assets/slider-one.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+.div1 div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 432px;
+  margin-left: 120px;
+}
+.div1 div h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.div2 {
+  display: flex;
+  background-color: #0bcce4;
+  width: 100%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 div {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 50px 80px;
+}
+
+.div2 div .d1 {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.div2 div .d2 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 div .d2 button {
+    height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 0px 40px;
+  margin: 35px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0.31);
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.div2 div .d2 button:hover {
+  border: 1px solid black;
+  scale: 1.05;
+}
+.div3 {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3 .d1 {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+}
+
+.div3 .d2 {
+  width: 70%;
+  height: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div3 .d2 div {
+  width: 100%;
+  margin: 20px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div3 .d2 div .d2_1 {
+  background: rgba(246, 246, 246, 255);
+  padding: 10px;
+}
+.iconDiv {
+  color: #0bcce4;
+  width: 49px !important;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #0bcce4;
+}
+.iconDiv svg {
+  width: 40px;
+  height: 30px;
+}
+
+.material-symbols-outlined {
+  color: #0bcce4;
+  font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 58;
+}
+
+.div4{
+    display: flex;
+}
+
+.div4 .d1 {
+  width: 100%;
+}
+.div4 .d1 img {
+  width: 100%;
+  height: 500px;
+}
+
+.div4 .d2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #eaeaea;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+  }
+  
+
+.div4 .d2 button {
+  display: flex;
+  width: fit-content;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: #0bcce4;
+  transition: 0.5s;
+}
+.div4 .d2 button:hover {
+  background-color: #05bad2;
+}
+
+@media (max-width:1124px){
+
+    .div1 {
+        height: 400px;
+    }
+    .div1 div{
+        display: flex;
+        position: relative;
+        margin: 150px;
+    }
+    .div2 div .d1 p{
+        height: 100px;
+        overflow: hidden;
+    }
+    .div3 .d2 div .d2_1 p{
+        height: 70px;
+        overflow: hidden;
+    }
+    .div4 .d1 img{
+        height: 300px;
+    }
+    .div4 .d2{
+        height: 300px;
+    }
+    .div4 .d2 p{
+        height: 70px;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:600px){
+
+    .div1{
+        background-image: url("../components/assets/slider-one1.jpg");
+        
+    }
+    .div1 div{
+        display: flex;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        left: 30%;
+        top: 40%;
+        height: 50px;
+        font-size: 10px;
+        transform: translate(-50%);
+    }
+  .div1 div h2{
+    font-size: 30px;
+  }
+    .div2{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    }
+    .div2 div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+    }
+
+    .div2 div .d1{
+        text-align: center;
+    }
+
+   .div2 div .d2{
+    height: 10px;
+   }
+
+   .div2 div .d2 button{
+    padding: 5px 20px;
+   }
+
+    .div3{
+        height:1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .div3 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .div3 .d1{
+        display: flex;
+        height: 30px;
+    }
+    .div3 .d1 p{
+        display: none;
+    }
+    .div3 .d2{
+        width: 100%;
+           display: flex; 
+           flex-direction: column;
+           height: 600px;
+    }
+    .div3 .d2 div{
+        margin: 10px;
+        width: 90%;
+    }
+
+
+    .div4{
+        width: 100%;
+        height: 650px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div4 .d1 img{
+        height: 300px;
+    }
+
+    .div4 .d2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding: 40px;
+    }
+
+
+}
