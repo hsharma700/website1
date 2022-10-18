@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.da477a54.css",
-    "main.js": "/react-gh-pages/static/js/main.af540851.js",
-    "static/js/787.e9957cf3.chunk.js": "/react-gh-pages/static/js/787.e9957cf3.chunk.js",
-    "static/media/slider-one1.jpg": "/react-gh-pages/static/media/slider-one1.5ff4be19acd2ee3ec1ff.jpg",
-    "static/media/slider-one.jpg": "/react-gh-pages/static/media/slider-one.75d006303dbf0bb3a792.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.da477a54.css.map": "/react-gh-pages/static/css/main.da477a54.css.map",
-    "main.af540851.js.map": "/react-gh-pages/static/js/main.af540851.js.map",
-    "787.e9957cf3.chunk.js.map": "/react-gh-pages/static/js/787.e9957cf3.chunk.js.map"
+    "main.css": "/defineLabs/static/css/main.7daacb7d.css",
+    "main.js": "/defineLabs/static/js/main.2350b8b8.js",
+    "static/js/787.e9957cf3.chunk.js": "/defineLabs/static/js/787.e9957cf3.chunk.js",
+    "static/media/slider-one1.jpg": "/defineLabs/static/media/slider-one1.5ff4be19acd2ee3ec1ff.jpg",
+    "static/media/slider-one.jpg": "/defineLabs/static/media/slider-one.75d006303dbf0bb3a792.jpg",
+    "index.html": "/defineLabs/index.html",
+    "main.7daacb7d.css.map": "/defineLabs/static/css/main.7daacb7d.css.map",
+    "main.2350b8b8.js.map": "/defineLabs/static/js/main.2350b8b8.js.map",
+    "787.e9957cf3.chunk.js.map": "/defineLabs/static/js/787.e9957cf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da477a54.css",
-    "static/js/main.af540851.js"
+    "static/css/main.7daacb7d.css",
+    "static/js/main.2350b8b8.js"
   ]
 }
