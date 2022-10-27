@@ -57,7 +57,7 @@ export default function Footer() {
         >
           <a className=" text-white copyRightATag " href="/home">
             © Bootstrap Template 2018 All right reserved.
-            <span> Template by Himanshu Sharma</span>
+            <span> Template by Define Labs</span>
           </a>
           <div>
             <div className="fb">
