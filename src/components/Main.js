@@ -4,7 +4,11 @@ import { BsBell } from "react-icons/bs";
 import { TiLightbulb } from "react-icons/ti";
 import { FiHardDrive } from "react-icons/fi";
 import ModalView from "./ModalView";
+import service from "./assets/service.jpg"
 import Service from "./Service";
+
+
+
 export default function Main() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
@@ -38,7 +42,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="div3">
+        <div id="services" className="div3">
           <div className="d1">
             <h2>OUR SERVICES</h2>
             <p>
@@ -60,7 +64,7 @@ export default function Main() {
         </div>
         <div className="div4">
           <div className="d1">
-            <img src="assets/service.jpg" alt="" />
+            <img src={service} alt="" />
           </div>
           <div className="d2">
             <h3>Our Team</h3>

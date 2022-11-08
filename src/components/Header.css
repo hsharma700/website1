@@ -1,22 +1,3 @@
-.container .navtitle{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.navtitle span, #navHome{
-    color: #0bcce4;
-}
-
-.navItems{
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.dropdown-menu.show{
-    border: none;
-    border-radius: 2px;
-}
-
-.dropdown-menu .dropdown-item.active{
-    --bs-dropdown-link-active-bg: #73d8e6;
+*{
+    scroll-behavior: smooth;
 }
