@@ -14,13 +14,13 @@ export default function Main() {
   return (
     <>
       <div className="mainDiv">
-        <div className="div1">
+        <div id="home" className="div1">
           <div>
             <h2>INNOVATION</h2>
             <p>We Create The Opportunities</p>
           </div>
         </div>
-        <div className="div2 img-fluid shadow-4">
+        <div id="about" className="div2 img-fluid shadow-4">
           <div>
             <div className="d1">
               <h1>Partner with Business Leaders</h1>
@@ -62,7 +62,7 @@ export default function Main() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}/>
           </div>
         </div>
-        <div className="div4">
+        <div id="contact" className="div4">
           <div className="d1">
             <img src={service} alt="" />
           </div>
