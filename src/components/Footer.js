@@ -56,8 +56,13 @@ export default function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           <a className=" text-white copyRightATag " href="/home">
+<<<<<<< HEAD
             © 2022 All right reserved.&nbsp;
             <span> Template by Himanshu Sharma </span>
+=======
+            © Bootstrap Template 2018 All right reserved.
+            <span> Template by Define Labs</span>
+>>>>>>> 020d3bf0a63a5e881b05bc12a4564b332212606a
           </a>
           <div>
             <div className="fb">
