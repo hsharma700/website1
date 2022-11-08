@@ -4,9 +4,13 @@ import "./Data";
 import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import Links from "./Links";
 import { data } from "./Data";
-import { AiOutlineFacebook, AiFillTwitterSquare,AiOutlineLinkedin } from "react-icons/ai";
-import { ImPinterest} from "react-icons/im";
-import { FaGooglePlusSquare} from "react-icons/fa";
+import {
+  AiOutlineFacebook,
+  AiFillTwitterSquare,
+  AiOutlineLinkedin,
+} from "react-icons/ai";
+import { ImPinterest } from "react-icons/im";
+import { FaGooglePlusSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -55,30 +59,25 @@ export default function Footer() {
           className="text-center p-3 copyRightDiv"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          <a className=" text-white copyRightATag " href="/home">
-<<<<<<< HEAD
-            © 2022 All right reserved.&nbsp;
-            <span> Template by Himanshu Sharma </span>
-=======
-            © Bootstrap Template 2018 All right reserved.
-            <span> Template by Define Labs</span>
->>>>>>> 020d3bf0a63a5e881b05bc12a4564b332212606a
+          <a className="text-white copyRightATag" href="/home">
+            © 2022 All right reserved. &nbsp;
+            <span> Template by Himanshu Sharma</span>
           </a>
           <div>
             <div className="fb">
-            <AiOutlineFacebook/>
+              <AiOutlineFacebook />
             </div>
             <div className="tw">
-            <AiFillTwitterSquare/>
+              <AiFillTwitterSquare />
             </div>
             <div className="linkde">
-            <AiOutlineLinkedin/>
+              <AiOutlineLinkedin />
             </div>
             <div className="pi">
-            <ImPinterest/>
+              <ImPinterest />
             </div>
             <div className="gplus">
-            <FaGooglePlusSquare/>
+              <FaGooglePlusSquare />
             </div>
           </div>
         </div>
